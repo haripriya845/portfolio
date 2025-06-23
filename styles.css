@@ -1,0 +1,294 @@
+.bg-body-tertiary {
+    /* background-color: rgb(1, 13, 57) !important; */
+    background-image: url(https://t3.ftcdn.net/jpg/03/91/46/10/360_F_391461057_5P0BOWl4lY442Zoo9rzEeJU0S2c1WDZR.jpg);
+    
+}
+
+.scrollspy-example {
+    background-color: transparent;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    min-height: 100vh;
+    
+}
+
+.navbar-brand {
+    color: rgb(170, 96, 200);
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.nav-link {
+    color: white;
+    font-size: 20px;
+}
+
+.navbar-toggler {
+    border-color: white;
+    background-color: white;
+}
+
+.container-fluid {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    padding-top: 20px;
+
+}
+
+.homehead {
+    color: rgb(214, 154, 222);
+    font-size: 55px;
+    font-weight: bolder;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+
+}
+
+.homecontent,
+.homesubhead {
+    color: white;
+
+
+}
+
+.hometext {
+    font-size: larger;
+    text-align: center;
+    color: white;
+
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.fa-brands.fa-github,
+.fa-brands.fa-linkedin-in,
+.fa-solid.fa-envelope {
+    color: rgb(214, 154, 222);
+    font-size: 27px;
+    
+}
+
+.homeb {
+    text-decoration: none;
+    border: 0.5px solid transparent;
+    border-radius: 50px;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-image: linear-gradient(rgb(170, 96, 200),rgb(214, 154, 222),rgb(234, 189, 230) );
+}
+
+.head {
+    color: rgb(214, 154, 222);
+    font-size: 50px;
+}
+
+.profile {
+    width: 100%;
+    max-width: 280px;
+    border-radius: 100%;
+    border: 5px solid rgb(170, 96, 200);
+    padding: 8px;
+    display: flex;
+    justify-self: center;
+
+}
+
+.aboutsubhead {
+    color: white;
+}
+
+.aboutcontent {
+    padding-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.about-div {
+    display: flex;
+
+}
+
+.aboutp {
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    max-width: 600px;
+    align-self: center;
+
+}
+
+.skill {
+    
+    color: white;
+    padding: 3px;
+    border-radius: 50px;
+    align-self: center;
+    background-image: linear-gradient(rgb(214, 154, 222),rgb(170, 96, 200));
+}
+
+.skilldiv {
+    display: flex;
+    gap: 20px;
+
+}
+
+.fa-globe,
+.fa-server,
+.fa-database,
+.fa-code {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: xx-large;
+    display: flex;
+    align-self: flex-start;
+    color: rgb(214, 154, 222);
+}
+
+.card-title {
+    display: flex;
+    align-self: flex-start;
+    color: rgb(255,255,255);
+}
+
+.card-text {
+    display: flex;
+    align-self: flex-start;
+    color: rgb(255, 255, 255);
+}
+
+.card {
+    margin-top: 20px;
+    background-color: rgb(1, 9, 35);
+
+    
+}
+h2{
+    color: white;
+    margin: 20px;
+    display: flex;
+    
+}
+.btn.btn-primary{
+    margin: 30px;
+    display: flex;
+    justify-self: center;
+    background-image: linear-gradient(rgb(170, 96, 200),rgb(214, 154, 222),rgb(234, 189, 230),rgb(255, 223, 239));
+    border-color: transparent;
+
+    
+}
+.contact-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    
+    
+}
+.contact{
+    display: flex;
+    font-size: 50px;
+    color: rgb(214, 154, 222);
+}
+.co{
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+.form-label{
+    color: white;
+    display: flex;
+}
+.btn.btn-primary.submit{
+    width: 100%;
+    padding: 15px;
+    justify-content: center;
+    background-image: linear-gradient(rgb(170, 96, 200),rgb(214, 154, 222),rgb(234, 189, 230),rgb(255, 223, 239));
+    
+}
+h6{
+    font-size: 30px;
+}
+.form-control{
+    background-color: transparent;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    background-color: transparent ;
+    color: rgb(214, 154, 222) ;
+    font-size: x-large;
+    box-shadow: none;
+}
+.nav-link:hover{
+    color: rgb(214, 154, 222);
+    text-shadow: 2px 2px 2px rgb(170, 96, 200) ;
+    font-size: x-large;
+    transition: 1s;
+}
+.navbar-brand:hover{
+    color: white;
+    text-shadow:2px 2px  rgb(214, 154, 222);
+    font-size: 25px;
+    transition: 1s;
+}
+.fa-brands.fa-github:hover,
+.fa-brands.fa-linkedin-in:hover,
+.fa-solid.fa-envelope:hover{
+    color: rgb(148, 72, 158);
+    font-size: 35px;
+    transition: 0.5s;
+}
+.homeb:hover{
+    background-image: none;
+    border-color: rgb(148, 72, 158);
+    border-width: 2px ;
+    color: white;
+
+}
+.card:hover{
+    padding: 15px;
+    border-color: rgb(148, 72, 158);
+    border-width: 2px;
+    transition: 1s;
+    box-shadow: 2px 2px 2px 2px rgb(214, 154, 222);
+
+}
+.progress-bar{
+    background-color: rgb(147, 48, 160);
+}
+.btn.btn-primary.submit:hover{
+    box-shadow: 2px 2px 2px 2px rgb(214, 154, 222);
+    border-width: 3px;
+}
+.btn.btn-primary:hover{
+    background-image: none;
+    background-color: transparent;
+    border-width: 4px  ;
+    border-color: rgb(147, 48, 160);
+}
+.fa-location-dot,
+.fa-phone,
+.fa-envelope{
+    color: rgb(148, 72, 158);
+}
+.fa-location-dot:hover,
+.fa-phone:hover,
+.fa-envelope:hover{
+    color: rgb(214, 154, 222);
+    font-size: xx-large;
+    transition: 1s;
+}
